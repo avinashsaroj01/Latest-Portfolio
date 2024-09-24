@@ -26,41 +26,41 @@ const Half = () => {
   );
 };
 
-const WorkItem = ({ role, desc, logo, timeline }) => {
-  return (
-    <>
-      <div className="p-8 rounded-md bg-zinc-900  grid-cols-10 grid-flow-row gap-4 hidden md:grid">
-        <div className="col-span-3">
-          <img src={logo} alt="" className="w-3/4 h-1/2" />
-        </div>
-        <div className="col-span-5">
-          <div className="text-gray-50 text-xl font-semibold font-openSans leading-7">
-            {role}
-          </div>
-          <div className="mt-4 font-openSans font-normal text-gray-300">
-            {desc}
-          </div>
-        </div>
-        <div className="col-span-2 text-gray-200 text-end">{timeline}</div>
-      </div>
-      <div className="flex flex-col gap-4 items-start md:hidden bg-zinc-900 p-8">
-        <div className="">
-          <img src={logo} alt="" className="w-3/4 h-full" />
-        </div>
-        <div className="text-gray-200 text-base font-normal font-openSans leading-normal">
-          {timeline}
-        </div>
-        <div className="text-gray-50 text-xl font-semibold font-['Open Sans'] leading-7">
-          {role}
-        </div>
-        <div className="text-gray-300 text-base font-normal font-['Open Sans'] leading-normal">
-        Worked on UI/UX for software products, driving design and functionality to 
-        deliver innovative solutions that align with both user needs and business objectives.
-        </div>
-      </div>
-    </>
-  );
-};
+// const WorkItem = ({ role, desc, logo, timeline }) => {
+//   return (
+//     <>
+//       <div className="p-8 rounded-md bg-zinc-900  grid-cols-10 grid-flow-row gap-4 hidden md:grid">
+//         <div className="col-span-3">
+//           <img src={logo} alt="" className="w-3/4 h-1/2" />
+//         </div>
+//         <div className="col-span-5">
+//           <div className="text-gray-50 text-xl font-semibold font-openSans leading-7">
+//             {role}
+//           </div>
+//           <div className="mt-4 font-openSans font-normal text-gray-300">
+//             {desc}
+//           </div>
+//         </div>
+//         <div className="col-span-2 text-gray-200 text-end">{timeline}</div>
+//       </div>
+//       <div className="flex flex-col gap-4 items-start md:hidden bg-zinc-900 p-8">
+//         <div className="">
+//           <img src={logo} alt="" className="w-3/4 h-full" />
+//         </div>
+//         <div className="text-gray-200 text-base font-normal font-openSans leading-normal">
+//           {timeline}
+//         </div>
+//         <div className="text-gray-50 text-xl font-semibold font-['Open Sans'] leading-7">
+//           {role}
+//         </div>
+//         <div className="text-gray-300 text-base font-normal font-['Open Sans'] leading-normal">
+//         Worked on UI/UX for software products, driving design and functionality to 
+//         deliver innovative solutions that align with both user needs and business objectives.
+//         </div>
+//       </div>
+//     </>
+//   );
+// };
 
 const About = () => {
   return (
