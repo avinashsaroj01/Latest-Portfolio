@@ -93,86 +93,23 @@ const Info = () => {
   );
 };
 
-// const Landing = () => {
-//   const navigate = useNavigate();
-
-//   const openPdf = () => {
-//     // Create a temporary link element to trigger the download/open
-//     const link = document.createElement("a");
-//     link.href = resumePDF;
-//     link.target = "_blank"; // Opens the PDF in a new tab
-//     link.download = "Avinash-Resume.pdf"; // Name for the downloaded file
-//     document.body.appendChild(link);
-//     link.click();
-//     document.body.removeChild(link); // Clean up the DOM
-//   };
-
-//   return (
-//     <div className="flex flex-col w-full">
-//       <div className="flex flex-row justify-between mx-4 md:mx-24 md:mt-10 mt-5 py-1">
-//         <div
-//           onClick={() => {
-//             navigate("/");
-//           }}
-//           className="flex flex-row gap-3 cursor-pointer"
-//         >
-//           <div className="bg-white w-[5rem] h-8 rounded-r-full"></div>
-//           <div className="flex flex-col text-white items-start justify-start leading-[80%] gap-1 text-base font-semibold font-openSans">
-//             <p>Avinash</p>
-//             <p>Saroj</p>
-//           </div>
-//         </div>
-//         <div className="text-white hidden md:flex justify-end gap-2 md:gap-10 font-openSans md:text-base text-xs font-semibold">
-//           <div className="cursor-pointer">
-//             <a href="/">Home</a>
-//           </div>
-//           <div className="">
-//             <a href="/about">About</a>
-//           </div>
-//           <div onClick={openPdf} className="cursor-pointer">
-//             Resume
-//           </div>
-//         </div>
-//         <div className="block md:hidden">
-//           <HamburgerMenu />
-//         </div>
-//       </div>
-
-//       <Routes>
-//         <Route path="*" element={<Info />} />
-//         <Route path="/about" element={<About />} />
-//         <Route path="/work" element={<Work />} />
-//         <Route path="/project" element={<Project />} />
-//       </Routes>
-//       <Footer />
-//     </div>
-//   );
-// };
-
-// export default Landing;
-
 const Landing = () => {
   const navigate = useNavigate();
-  const [menuOpen, setMenuOpen] = useState(false);  // State to handle menu open/close
-
-  const toggleMenu = () => {
-    setMenuOpen(!menuOpen);
-  };
 
   const openPdf = () => {
+    // Create a temporary link element to trigger the download/open
     const link = document.createElement("a");
     link.href = resumePDF;
-    link.target = "_blank";
-    link.download = "Avinash-Resume.pdf";
+    link.target = "_blank"; // Opens the PDF in a new tab
+    link.download = "Avinash-Resume.pdf"; // Name for the downloaded file
     document.body.appendChild(link);
     link.click();
-    document.body.removeChild(link);
+    document.body.removeChild(link); // Clean up the DOM
   };
 
   return (
     <div className="flex flex-col w-full">
       <div className="flex flex-row justify-between mx-4 md:mx-24 md:mt-10 mt-5 py-1">
-        {/* Logo Section */}
         <div
           onClick={() => {
             navigate("/");
@@ -185,8 +122,6 @@ const Landing = () => {
             <p>Saroj</p>
           </div>
         </div>
-
-        {/* Desktop Menu */}
         <div className="text-white hidden md:flex justify-end gap-2 md:gap-10 font-openSans md:text-base text-xs font-semibold">
           <div className="cursor-pointer">
             <a href="/">Home</a>
@@ -198,38 +133,21 @@ const Landing = () => {
             Resume
           </div>
         </div>
-
-        {/* Hamburger Menu for Mobile */}
         <div className="block md:hidden">
-          <div className="hamburger cursor-pointer" onClick={toggleMenu}>
-            <div className="line"></div>
-            <div className="line"></div>
-            <div className="line"></div>
-          </div>
-
-          {/* Dropdown Menu for Mobile */}
-          {menuOpen && (
-            <div className="dropdown-menu">
-              <a href="/" className="block text-white py-2">Home</a>
-              <a href="/about" className="block text-white py-2">About</a>
-              <div onClick={openPdf} className="cursor-pointer py-2 text-white">Resume</div>
-            </div>
-          )}
+          <HamburgerMenu />
         </div>
       </div>
 
-      {/* Routes */}
       <Routes>
         <Route path="*" element={<Info />} />
         <Route path="/about" element={<About />} />
         <Route path="/work" element={<Work />} />
         <Route path="/project" element={<Project />} />
       </Routes>
-
-      {/* Footer */}
       <Footer />
     </div>
   );
 };
 
 export default Landing;
+
