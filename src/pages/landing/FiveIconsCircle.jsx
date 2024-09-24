@@ -19,7 +19,7 @@ const FiveIconsCircle = () => {
     },
     {
       icon: Icon4,
-      ctx: "IIIT Sricity (B.Tech in Computer Science Engineering)",
+      ctx: "IIIT Sricity (B.Tech in CSE)",
       position: "top-0 mx-auto",
       subPosition: "bottom-full mb-2",
     },
