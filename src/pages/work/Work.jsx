@@ -9,6 +9,7 @@ import { useNavigate } from "react-router-dom";
 import Project1 from "../ProjectOveriviews/Project1";
 import Project2 from "../ProjectOveriviews/Project2";
 import Project3 from "../ProjectOveriviews/Project3";
+import Project4 from "../ProjectOveriviews/Project4";
 
 // import signzy from "../../assets/svgs/image 1.svg";
 const Work = () => {
@@ -65,6 +66,12 @@ const Work = () => {
       key: "ALGOVISION",
       desc: "An interactive web application that visualizes various sorting algorithms to help users understand algorithmic efficiency and behavior.",
     },
+    {
+      title: "CalcMaster",
+      key: "CALCMASTER",
+      desc: "A simple yet intuitive calculator application built using HTML, CSS, and JavaScript, designed to perform basic arithmetic operations with a user-friendly interface.",
+    },
+    
     // {
     //   title: "Hidden Layers (Live Project)",
     //   key: "HIDDEN_LAYERS",
@@ -104,6 +111,7 @@ const Work = () => {
       {selected === "FINANCE_MATE" && <Project1/>}
       {selected === "METRO_PATH_FINDER" && <Project2/>}
       {selected === "ALGOVISION" && <Project3 />}
+      {selected === "CALCMASTER" && <Project4 />}
       {/* {selected === "HIDDEN_LAYERS" && <Project1 />}
       {selected === "SUB_SPACE" && < />}
       {selected === "ONEDRIVE_REDISIGN" && < />}

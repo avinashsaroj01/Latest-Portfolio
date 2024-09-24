@@ -87,6 +87,36 @@ const projects = {
     textColor: "black",
     link: "https://github.com/avinashsaroj01/AlgoVision.git",
   },
+  CALCMASTER: {
+    title: "CalcMaster",
+    tags: [
+      "Front-End Development",
+      "Personal Project",
+      "Duration : 1 week",
+    ],
+    comp1: {
+      key: "WHAT?",
+      desc: "A basic yet functional calculator application built using HTML, CSS, and JavaScript, enabling users to perform standard arithmetic operations through a clean and user-friendly interface.",
+    },
+    comp2: {
+      key: "WHY?",
+      desc: "CalcMaster was developed to hone front-end development skills while offering users a simple tool for quick calculations.",
+    },
+    comp3: {
+      key: "HOW?",
+      desc: [
+        "Developed the front-end using HTML for structure, CSS for styling, and JavaScript to implement functionality.",
+        "Designed the calculator UI with a minimalistic approach for ease of use and clarity.",
+        "Handled arithmetic operations through JavaScript event handling and DOM manipulation.",
+        "Deployed the project on GitHub Pages for easy access and sharing.",
+      ],
+    },
+    bgColor: "bg-blue-300",
+    titleColor: "text-blue-500",
+    textColor: "black",
+    link: "https://github.com/avinashsaroj01/CalcMaster",
+  },
+  
 };
 
 const Tag = ({ tag, bgColor, textColor }) => {
