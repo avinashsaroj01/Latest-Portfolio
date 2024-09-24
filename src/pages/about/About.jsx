@@ -1,11 +1,11 @@
 import React from "react";
 import memoji from "../../assets/images/1eaaefc0c081df076f8e699aaaf3155d-sticker 1.png";
 import pointer from "../../assets/svgs/pointer.svg";
-import signzy from "../../assets/svgs/Group 224.svg";
-import samsung from "../../assets/companies/image 1.svg";
-import company3 from "../../assets/companies/image 3.svg";
-import company4 from "../../assets/companies/image 2.svg";
-import company5 from "../../assets/companies/Saaspect_Logo_White.png";
+// import signzy from "../../assets/svgs/Group 224.svg";
+// import samsung from "../../assets/companies/image 1.svg";
+// import company3 from "../../assets/companies/image 3.svg";
+// import company4 from "../../assets/companies/image 2.svg";
+// import company5 from "../../assets/companies/Saaspect_Logo_White.png";
 const Full = () => {
   return (
     <div className="h-4 md:h-5 w-6 md:w-8 bg-red-400 rounded-3xl border-[1px] border-red-400"></div>

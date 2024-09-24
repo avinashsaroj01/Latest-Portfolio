@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import filled from "../../assets/svgs/filled.svg";
-import { FaBehanceSquare, FaGithub, FaLinkedin } from "react-icons/fa";
+import {  FaGithub, FaLinkedin } from "react-icons/fa";
 import { MdMail } from "react-icons/md";
 import { useNavigate } from "react-router-dom";
 import emailjs from "emailjs-com"; // Import EmailJS

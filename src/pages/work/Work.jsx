@@ -1,16 +1,15 @@
 import React, { useState } from "react";
-import signzy from "../../assets/svgs/Group 224.svg";
+// import signzy from "../../assets/svgs/Group 224.svg";
 import Arrow1 from "../../assets/svgs/Group.svg";
-import samsung from "../../assets/svgs/image 1.svg";
-import company3 from "../../assets/svgs/image 2.svg";
-import company4 from "../../assets/svgs/image 3.svg";
-import company5 from "../../assets/companies/saaspect.svg";
+// import samsung from "../../assets/svgs/image 1.svg";
+// import company3 from "../../assets/svgs/image 2.svg";
+// import company4 from "../../assets/svgs/image 3.svg";
+// import company5 from "../../assets/companies/saaspect.svg";
 import { useNavigate } from "react-router-dom";
 import Project1 from "../ProjectOveriviews/Project1";
 import Project2 from "../ProjectOveriviews/Project2";
 import Project3 from "../ProjectOveriviews/Project3";
-import Project4 from "../ProjectOveriviews/Project4";
-import Project5 from "../ProjectOveriviews/Project5";
+
 // import signzy from "../../assets/svgs/image 1.svg";
 const Work = () => {
   const [selected, setSelected] = useState("");
