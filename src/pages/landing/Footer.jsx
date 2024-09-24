@@ -2,12 +2,12 @@ import React, { useState } from "react";
 import filled from "../../assets/svgs/filled.svg";
 import {  FaGithub, FaLinkedin } from "react-icons/fa";
 import { MdMail } from "react-icons/md";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 import emailjs from "emailjs-com"; // Import EmailJS
 
 const Footer = () => {
   const [email, setEmail] = useState(''); // State for email input
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   const handleEmailChange = (event) => {
     setEmail(event.target.value); // Update email state
@@ -65,18 +65,18 @@ const Footer = () => {
               </div>
             </div>
             <div className="basis-1/2 flex justify-between">
-              <div className="flex flex-col gap-2">
+              {/* <div className="flex flex-col gap-2">
                 <div className="text-red-400 text-xl mb-2">Navigation</div>
                 <div onClick={() => navigate("/")} className="text-white cursor-pointer">Home</div>
                 <div onClick={() => navigate("/about")} className="text-white cursor-pointer">About Me</div>
                 <div onClick={() => navigate("/resume")} className="text-white cursor-pointer">Resume</div>
-              </div>
-              <div className="flex flex-col gap-2">
+              </div> */}
+              {/* <div className="flex flex-col gap-2">
                 <div className="text-red-400 text-xl mb-2">Contact</div>
                 <div onClick={() => window.open("mailto:avinashsaroj99@gmail.com", "_blank")} className="text-white cursor-pointer">
                   avinashsaroj99@gmail.com
                 </div>
-              </div>
+              </div> */}
               <div className="flex flex-row h-fit">
                 <form onSubmit={sendEmail} className="flex items-center">
                   <input
