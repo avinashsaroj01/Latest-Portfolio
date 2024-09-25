@@ -48,7 +48,7 @@ const Info = () => {
             <span
               className={`text-stone-200 font-normal ${fonts[value]} leading-4 text-xl inline-block md:hidden`}
             >
-              <div className="w-20 md:hidden inline-block">{`Designer`}</div>
+              <div className="w-20 md:hidden inline-block">{`Engineer`}</div>
             </span>
             <span className="text-stone-200 text-xl md:text-5xl font-semibold font-font-openSans">
               {" "}

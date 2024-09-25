@@ -192,7 +192,7 @@ const Project = () => {
             )}
           </div>
           <div className="md:basis-1/2 mx-8 md:ml-16">
-            <div className={`font-medium text-2xl text-${data.bgColor} pb-5`}>
+            <div className={`font-medium text-2xl text-${data.Color} pb-5`}>
               {data.comp3.key}
             </div>
             {data.comp3.desc.map((item) => (
