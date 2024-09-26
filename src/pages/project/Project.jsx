@@ -7,7 +7,7 @@ const projects = {
     tags: [
       "Full Stack Development",
       "Personal Project",
-      "Duration : 4 weeks",
+      // "Duration : 4 weeks",
     ],
     comp1: {
       key: "WHAT?",
@@ -35,8 +35,8 @@ const projects = {
     title: "Metro Path Finder",
     tags: [
       "Algorithm Development",
-      "Classroom Project",
-      "Duration : 3 weeks",
+      "Personal Project",
+      // "Duration : 3 weeks",
     ],
     comp1: {
       key: "WHAT?",
@@ -64,7 +64,7 @@ const projects = {
     tags: [
       "Frontend Development",
       "Personal Project",
-      "Duration : 2 weeks",
+      // "Duration : 2 weeks",
     ],
     comp1: {
       key: "WHAT?",
@@ -92,7 +92,7 @@ const projects = {
     tags: [
       "Front-End Development",
       "Personal Project",
-      "Duration : 1 week",
+      // "Duration : 1 week",
     ],
     comp1: {
       key: "WHAT?",
