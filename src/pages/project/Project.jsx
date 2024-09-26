@@ -175,15 +175,15 @@ const Project = () => {
             </div>
           </div>
           <div className="md:hidden mx-8 my-4">
-            <div className={`font-medium text-2xl ${data.titleColor} pb-5`}>
-              {data.comp1.key}
-            </div>
+          <div className={`pb-5 font-medium text-2xl ${data.titleColor}`}>
+  {data.comp1.key}
+</div>
             <div className="text-white">{data.comp1.desc}</div>
           </div>
           <div className="md:hidden mx-8 mt-4 mb-8">
-            <div className={`font-medium text-2xl ${data.titleColor} pb-5`}>
-              {data.comp2.key}
-            </div>
+          <div className={`pt-16 pb-5 font-medium text-2xl ${data.titleColor}`}>
+  {data.comp2.key}
+</div>
             <div className="text-white">{data.comp2.desc}</div>
             {data?.comp2?.note && (
               <div className="my-4 text-stone-300 text-sm font-normal font-rubik">
@@ -192,9 +192,9 @@ const Project = () => {
             )}
           </div>
           <div className="md:basis-1/2 mx-8 md:ml-16">
-            <div className={`font-medium text-2xl text-${data.Color} pb-5`}>
-              {data.comp3.key}
-            </div>
+          <div className={`font-medium text-2xl ${data.titleColor} pb-5`}>
+  {data.comp3.key}
+</div>
             {data.comp3.desc.map((item) => (
               <div className="flex gap-2 text-white font-extrabold">
                 <div>{"•"}</div>
