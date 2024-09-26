@@ -52,8 +52,7 @@ const Info = () => {
             </span>
             <span className="text-stone-200 text-xl md:text-5xl font-semibold font-font-openSans">
               {" "}
-              On a mission to leverage my software engineering skills to create
-              impactful solutions in a competitive digital landscape.
+              Mastering code to build innovative, high-impact solutions in the ever-evolving world of technology.
             </span>
           </div>
           <div className="mt-4 md:mt-20 hidden md:block">
