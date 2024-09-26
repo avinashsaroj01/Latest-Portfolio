@@ -85,10 +85,10 @@ const About = () => {
           <div className="justify-start items-start gap-8 md:gap-20 inline-flex py-8 border-y-[1px] border-y-red-400 mt-8">
             <div className="flex-col justify-start items-start gap-2 inline-flex">
               <div className="w-[78px] text-white text-2xl md:text-5xl font-semibold font-openSans leading-[52px]">
-                2+
+                1  
               </div>
               <div className=" text-white text-base md:text-xl font-normal font-openSans leading-snug">
-                Years of Experience
+                Year Internship Experience
               </div>
             </div>
             <div className="flex-col justify-start items-start gap-2 inline-flex">
@@ -179,8 +179,8 @@ const About = () => {
             <div className="justify-start items-center gap-4 inline-flex">
               <img src={pointer} alt="" srcset="" />
               <div className="text-white text-sm font-normal font-openSans leading-tight">
-                Storytelling
-              </div>
+               UI/UX Design
+                             </div>
             </div>
             <div className="justify-start items-center gap-1 inline-flex">
               <Full />
@@ -268,12 +268,12 @@ const About = () => {
         </div>
       </div>
       <div className="mt-16 md:mt-32 flex flex-col justify-center items-center">
-        <div className="px-5 py-1 bg-zinc-900 rounded-xl w-fit text-gray-300 text-sm font-normal font-openSans leading-tight">
+        {/* <div className="px-5 py-1 bg-zinc-900 rounded-xl w-fit text-gray-300 text-sm font-normal font-openSans leading-tight">
           My Top Skills
         </div>
         <div className="text-center text-gray-300 text-base font-normal font-openSans leading-7 mt-2">
           Here is a quick summary of my most recent experiences:
-        </div>
+        </div> */}
         {/* <div className="flex flex-col gap-12 mt-12">
           <WorkItem
             desc={`As a Product Designer at Signzy, I conduct user
