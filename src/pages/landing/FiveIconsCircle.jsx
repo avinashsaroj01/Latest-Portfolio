@@ -14,7 +14,7 @@ const FiveIconsCircle = () => {
     {
       icon: Icon1,
       ctx: "1 year of experience",
-      position: "right-2 bottom-6 absolute",
+      position: "right-0 bottom-2 absolute",
       subPosition: "top-full mt-2 right-[-24px]",
     },
     {
@@ -26,19 +26,19 @@ const FiveIconsCircle = () => {
     {
       icon: Icon2,
       ctx: "SkilloVilla",
-      position: "left-2 bottom-6 absolute",
+      position: "left-0 bottom-2 absolute",
       subPosition: "top-full mt-2 right-0",
     },
     {
       icon: Icon3,
       ctx: "Bengaluru",
-      position: "right-0 top-24 absolute",
+      position: "right-0 top-25 absolute",
       subPosition: "bottom-full mb-2",
     },
     {
       icon: Icon5,
       ctx: "Software Engineer",
-      position: "left-0 top-24 absolute",
+      position: "left-0 top-25 absolute",
       subPosition: "bottom-full mb-2",
     },
   ];
@@ -92,7 +92,7 @@ const FiveIconsCircle = () => {
         </div>
       ))}
       <div className="relative m-10 h-56 w-56 md:h-72 md:w-72 bg-[#CACACA] rounded-full mt-12 mx-auto flex items-center justify-center">
-  <img className="h-52 w-52 md:h-[18rem] md:w-[18rem] rounded-full object-cover" src={Avinash} alt="Profile" />
+  <img className="h-52 w-52 md:h-[21rem] md:w-[18rem] rounded-full object-cover" src={Avinash} alt="Profile" />
 </div>
 
     </div>
