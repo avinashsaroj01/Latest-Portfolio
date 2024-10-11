@@ -4,7 +4,7 @@ import Icon2 from "../../assets/svgs/material-symbols-light_work.svg";
 import Icon3 from "../../assets/svgs/mdi_location.svg";
 import Icon4 from "../../assets/svgs/vaadin_office.svg";
 import Icon5 from "../../assets/svgs/wpf_like.svg";
-import Sejal from "../../assets/images/Subject 1.png";
+import Avinash from "../../assets/images/Subject 1.png";
 
 const FiveIconsCircle = () => {
   const [hoveredIndex, setHoveredIndex] = useState(-1); // -1 means no icon is hovered
@@ -91,9 +91,10 @@ const FiveIconsCircle = () => {
           </div>
         </div>
       ))}
-      <div className="m-10 h-56 w-56 md:h-72 md:w-72 bg-[#CACACA] rounded-full mt-12 mx-12 relative">
-        <img className="mx-auto h-56 md:h-[19rem]" src={Sejal} alt="" />
-      </div>
+      <div className="relative m-10 h-56 w-56 md:h-72 md:w-72 bg-[#CACACA] rounded-full mt-12 mx-auto flex items-center justify-center">
+  <img className="h-52 w-52 md:h-[18rem] md:w-[18rem] rounded-full object-cover" src={Avinash} alt="Profile" />
+</div>
+
     </div>
   );
 };
